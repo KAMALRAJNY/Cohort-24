@@ -1,0 +1,131 @@
+@font-face {
+    font-family: myFont1;
+    src: url(./Fonts/ELNATH.ttf);
+}
+
+
+@font-face {
+    font-family: myFont2;
+    src: url(./Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: myFont3;
+    src: url(./Fonts/Valorax-lg25V.otf);
+}
+
+@font-face {
+    font-family: myFont4;
+    src: url(./Fonts/BigSpace-rPKx.ttf);
+}
+
+@font-face {
+    font-family: myFont5;
+    src: url(./Fonts/BordDemo-axaBa.otf);
+}
+
+@font-face {
+    font-family: myFont6;
+    src: url(./Fonts/GlitchInside-0Wjro.otf);
+}
+
+@font-face {
+    font-family: myFont7;
+    src: url(./Fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: myFont8;
+    src: url(./Fonts/BordDemo-axaBa.otf);
+}
+
+body{
+    padding-top: 70px;
+}
+
+.navi-bar{
+    background-color: black !important;
+}
+
+.navi-items{
+    margin-left: 50px;
+}
+
+.title{
+    background-image: url(./Images/Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    background-color: rgba(33, 5, 51, 0.5);
+}
+
+.title-word{
+    background-color: transparent;
+    font-size: 100px;
+    padding-top: 140px;
+    font-family: myFont1;
+    color: white;
+}
+
+.para-content{
+    font-family: myFont1;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .img{
+        min-height: 30vh;
+    }
+    .title-word{
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+
+.foot-bar{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.icon-list{
+    display: inline;
+}
+
+.item{
+    overflow: hidden;
+    display: inline;
+}
+
+.icon{
+    transition: 0.5s ease;
+    color: whitesmoke;
+}
+
+.item a:hover .icon{
+    transform: rotateY(360deg);
+}
+
+.kiot-content{
+    text-indent: 4rem;
+    text-align: justify;
+}
+
+.dept-vision{
+    text-indent: 4rem;
+    text-align: justify;
+}
+
+.dept-icon .fa-solid{
+    font-size: 40px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    color: black;
+}
+
+
+
+

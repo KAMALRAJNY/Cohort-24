@@ -1,0 +1,31 @@
+.navi-items{
+    margin-left: 50px;
+}
+
+.navi-bar{
+    background-color: black !important;
+}
+
+.foot-bar{
+    background-color: black !important;
+    color: whitesmoke;
+}
+
+.icon-list{
+    display: inline;
+}
+
+.item{
+    overflow: hidden;
+    display: inline;
+}
+
+.icon{
+    transition: 0.5s ease;
+    color: whitesmoke;
+}
+
+.item a:hover .icon{
+    transform: rotateY(360deg);
+}
+
